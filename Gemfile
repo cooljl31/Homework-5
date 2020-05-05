@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.3.0'
-gem 'rails', '4.2.6'
+gem 'rails', '4.2.8'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
@@ -17,8 +17,8 @@ group :development, :test do
 end
 
 group :test do
-  gem 'cucumber-rails', :require => false
-  gem 'cucumber-rails-training-wheels'
+  gem 'cucumber-rails', '>= 1.4.3', :require => false
+  gem 'cucumber-rails-training-wheels', '>= 1.0.0'
 end
 group :production do
   gem 'pg'
@@ -28,11 +28,11 @@ end
 # in production environments by default.
 
   #gem 'therubyracer', '~> 0.12.0'
-gem 'sass-rails', '~> 5.0.3'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'sass-rails', '~> 5.0.5'
+gem 'coffee-rails', '~> 4.1.1'
 gem 'uglifier', '>= 2.7.1'
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.1.1'
 gem 'haml'
 
 # Use unicorn as the web server
