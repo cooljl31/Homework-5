@@ -17,8 +17,8 @@ group :development, :test do
 end
 
 group :test do
-  gem 'cucumber-rails', :require => false
-  gem 'cucumber-rails-training-wheels'
+  gem 'cucumber-rails', '>= 2.1.0', :require => false
+  gem 'cucumber-rails-training-wheels', '>= 1.0.0'
 end
 group :production do
   gem 'pg'
