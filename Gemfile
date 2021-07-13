@@ -11,7 +11,7 @@ group :development, :test do
   gem 'byebug'
   gem 'database_cleaner', '1.4.1'
   gem 'capybara', '2.4.4'
-  gem 'launchy'
+  gem 'launchy', '>= 2.4.3'
   gem 'rspec-rails', '3.3.2'
   gem 'ZenTest', '4.11.0'
 end
