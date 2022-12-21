@@ -28,7 +28,7 @@ end
 # in production environments by default.
 
   #gem 'therubyracer', '~> 0.12.0'
-gem 'sass-rails', '~> 5.0.3'
+gem 'sass-rails', '~> 6.0.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'uglifier', '>= 2.7.1'
 
