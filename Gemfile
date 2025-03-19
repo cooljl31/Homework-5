@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.3.0'
-gem 'rails', '4.2.6'
+gem 'rails', '7.0.0'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
@@ -17,7 +17,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', '>= 2.1.0', :require => false
   gem 'cucumber-rails-training-wheels'
 end
 group :production do
@@ -28,7 +28,7 @@ end
 # in production environments by default.
 
   #gem 'therubyracer', '~> 0.12.0'
-gem 'sass-rails', '~> 5.0.3'
+gem 'sass-rails', '~> 6.0.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'uglifier', '>= 2.7.1'
 
